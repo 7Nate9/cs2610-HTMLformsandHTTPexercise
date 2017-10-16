@@ -31,7 +31,7 @@
                 <input type="url" id="url">
             </p>
             <p>
-                <label for="textarea">Multi-Line</label>
+                <label for="textarea">Multi-Line:</label>
                 <textarea id="textarea"></textarea>
             </p>
             <p>
@@ -42,31 +42,26 @@
                     <option value="3">Option 3</option>
                 </select>
             </p>
-            <div role="radiogroup" aria-label="Radio Options">
-                <p>
-                    <label for="radio1">Option 1</label>
-                    <input type="radio" id="radio1">
-                </p>
-                <p>
-                    <label for="radio2">Option 2</label>
-                    <input type="radio" id="radio2">
-                </p>
-                <p>
-                    <label for="radio3">Option 3</label>
-                    <input type="radio" id="radio3">
-                </p>
-            </div>
+            <fieldset>
+                <legend>Radio Options</legend>
+                
+                <label for="radio1">Option 1</label>
+                <input type="radio" id="radio1" name="radio">
+                    
+                <label for="radio2">Option 2</label>
+                <input type="radio" id="radio2" name="radio">
+            </fieldset>
             <p>
                 <label for="checkbox">Check the box?</label>
                 <input type="checkbox" id="checkbox">
             </p>
             <p>
-                <label for="slider">Slider</label>
+                <label for="slider">Slider:</label>
                 <input type="range" id="slider">
             </p>
             <p>
-                <input type="submit">Submit</input>
-                <input type="reset">Reset</input>
+                <input type="submit">
+                <input type="reset">
             </p>
         </fieldset>
     </body>
